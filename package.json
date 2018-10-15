@@ -2,7 +2,7 @@
   "name": "web-push-button-with-delay",
   "version": "1.0.0",
   "description": "Simple example of web push API from a button click using Express as server.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/pagetribe/node-web-push-button-with-delay#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "web-push": "^3.3.3"
   }
 }
